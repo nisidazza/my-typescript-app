@@ -27,6 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "webpack",
+    "watch": "-w",
     "test": "jest",
     "test:watch": "jest --watch",
     "eject": "react-scripts eject"
