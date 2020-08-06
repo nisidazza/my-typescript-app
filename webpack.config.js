@@ -8,6 +8,7 @@ module.exports = {
   entry: "./src/index.tsx",
   // Where to compile the bundle
   // By default the output directory is `dist`
+  mode: "development",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -18,6 +19,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         loader: "ts-loader",
+        exclude: /node_modules/,
       },
     ],
   },
