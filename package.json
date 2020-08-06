@@ -19,7 +19,10 @@
     "typescript": "^3.7.5"
   },
   "devDependencies": {
-    "sass": "^1.22.9"
+    "sass": "^1.22.9",
+    "ts-loader": "^8.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "start": "react-scripts start",
