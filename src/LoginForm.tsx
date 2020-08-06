@@ -60,7 +60,7 @@ function LoginForm(props: Props) {
         <input
           data-testid="remember"
           type="checkbox"
-          name="username"
+          name="remember"
           checked={remember}
           onChange={handleRememberChange}
         />
