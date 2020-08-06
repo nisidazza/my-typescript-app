@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+dist/
+
 # testing
 /coverage
 
@@ -23,4 +25,3 @@ yarn-debug.log*
 yarn-error.log*
 
 
-/dist/bundle.js
